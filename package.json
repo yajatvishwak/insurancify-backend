@@ -1,7 +1,9 @@
 {
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
+  "main": "server.js",
   "dependencies": {
     "better-sqlite3": "^7.6.2",
     "cors": "^2.8.5",
