@@ -6,6 +6,7 @@ const app = express();
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(cors());
+
 // database
 const Database = require("better-sqlite3");
 const db = new Database("insurance.db", { verbose: console.log });
